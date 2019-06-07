@@ -34,3 +34,9 @@ intellij-plugin/djinni.jar
 
 # profiling output
 callgrind.out.*
+bazel-bin
+bazel-djinni
+bazel-genfiles
+bazel-out
+.vscode
+bazel-testlogs

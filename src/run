@@ -14,7 +14,7 @@ while [ -h "$loc" ]; do
 done
 base_dir=$(cd "`dirname "$loc"`" > /dev/null && pwd)
 
-"$base_dir/build"
+"$base_dir/build_djinni"
 
 # Determine os version and choose correspondent .sh or .bat file accordingly.
 os_version="`uname -a`"
